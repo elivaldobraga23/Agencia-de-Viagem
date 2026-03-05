@@ -1,0 +1,158 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+position:absolute;
+width:100%;
+z-index:10;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ffb347;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background-image:url("img/Canoa-Quebrada-Morro-Branco-Ceara-2.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.55);
+padding:60px;
+border-radius:10px;
+text-align:center;
+color:white;
+}
+
+.overlay h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.overlay p{
+margin-bottom:20px;
+font-size:18px;
+}
+
+.btn{
+background:#ff7a18;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff9a3c;
+}
+
+/* SEÇÕES */
+
+.container{
+padding:80px 10%;
+text-align:center;
+}
+
+.container h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+/* CARDS */
+
+.cards{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+width:50%;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* SEÇÃO ESCURA */
+
+.dark{
+background:#222;
+color:white;
+}
+
+.encontre{
+    width: 30%;
+    margin: 0 auto;
+;
+    
+}
+
+/* BOTÃO VOLTAR */
+
+.back{
+display:inline-block;
+margin-top:40px;
+background:#333;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.back:hover{
+background:#ff7a18;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
